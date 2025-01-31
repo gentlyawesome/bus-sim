@@ -4,16 +4,11 @@ import React from "react";
 // style
 import "./index.css";
 
-import { GoogleMap, Polyline, useJsApiLoader } from "@react-google-maps/api";
+import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
 
 const containerStyle = {
   width: "800px",
   height: "600px",
-};
-
-const center = {
-  lat: -27.6981793,
-  lng: 152.7909005,
 };
 
 const routes = [
